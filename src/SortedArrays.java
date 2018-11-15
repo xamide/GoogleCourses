@@ -19,8 +19,7 @@ public class SortedArrays {
             }
         }
 
-        // add sorted array values into integer list
-        // remove duplicates from the list and add them to the array
+        // remove duplicates from the list and add sorted array values to the arraylist
         for (int b = 0; b < a.length; b++) {
                 if (!arr.contains(a[b])) {
                     arr.add(a[b]);
