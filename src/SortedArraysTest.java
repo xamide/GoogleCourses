@@ -6,8 +6,8 @@ class SortedArraysTest {
 
     @Test
     void sort() {
-            int [] intArr = {3, 6, 1, 8, 4, 1, 5};
-            int [] expectedArr = {1, 3, 4, 5, 6, 8};
+            int [] intArr = {3, 6, 1, 1, 8, 4, 2, 1, 2, 5};
+            int [] expectedArr = {1, 2, 3, 4, 5, 6, 8};
             SortedArrays sortArr = new SortedArrays();
             assertArrayEquals(expectedArr, sortArr.sort(intArr));
 

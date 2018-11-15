@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb2c882c-173d-4b21-b107-f0d6f872eca7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortedArrays.java" afterDir="false" />
-    </list>
+    <list default="true" id="cb2c882c-173d-4b21-b107-f0d6f872eca7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,10 +17,10 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="SortedArrays.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortedArrays.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="425">
               <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -31,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortedArraysTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortedArraysTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SortedArraysTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -69,8 +67,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="135" />
-    <option name="y" value="56" />
+    <option name="x" value="489" />
+    <option name="y" value="-13" />
     <option name="width" value="1315" />
     <option name="height" value="820" />
   </component>
@@ -267,15 +265,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortedArraysTest - 2018.11.14 at 22h 30m 57s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.14 at 22h 31m 44s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.14 at 22h 32m 00s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortedArraysTest - 2018.11.14 at 22h 33m 07s.xml">
       <configuration name="SortedArraysTest" configurationId="JUnit" />
     </history-entry>
@@ -297,6 +286,15 @@
     <history-entry file="SortedArraysTest - 2018.11.15 at 00h 52m 31s.xml">
       <configuration name="SortedArraysTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 56m 05s.xml">
+      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 56m 15s.xml">
+      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 56m 24s.xml">
+      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -311,7 +309,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32912722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -394,20 +392,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortedArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/SortedArraysTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortedArraysTest.java">
+    <entry file="file://$PROJECT_DIR$/src/SortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="425">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

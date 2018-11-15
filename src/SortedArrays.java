@@ -22,12 +22,8 @@ public class SortedArrays {
         // add sorted array values into integer list
         // remove duplicates from the list and add them to the array
         for (int b = 0; b < a.length; b++) {
-            arr.add(a[b]);
-            for (int v = b; v < arr.size(); v++) {
-                if (arr.contains(arr.get(v))) {
-                    arr.remove(v);
-                }
-
+                if (!arr.contains(a[b])) {
+                    arr.add(a[b]);
             }
         }
 
