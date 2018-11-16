@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb2c882c-173d-4b21-b107-f0d6f872eca7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MapSharing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MapSharingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/SortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/SortedArrays.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,26 +22,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="SortedArrays.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SortedArrays.java">
+      <file leaf-file-name="MapSharing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MapSharing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortedArraysTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SortedArraysTest.java">
+      <file leaf-file-name="MapSharingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MapSharingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -48,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -65,10 +63,12 @@
         <option value="$PROJECT_DIR$/src/SumOfNumbers.java" />
         <option value="$PROJECT_DIR$/src/SortedArraysTest.java" />
         <option value="$PROJECT_DIR$/src/SortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/MapSharing.java" />
+        <option value="$PROJECT_DIR$/src/MapSharingTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="489" />
     <option name="y" value="-13" />
     <option name="width" value="1315" />
@@ -79,8 +79,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,7 +98,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,19 +134,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortedArraysTest">
+  <component name="RunManager" selected="JUnit.MapSharingTest">
     <configuration name="SortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortedArrays" />
       <module name="Tasks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SumOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfNumbers" />
-      <module name="Tasks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MapSharingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MapSharingTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="SortedArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks" />
@@ -238,19 +250,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SumOfNumbers" />
       <item itemvalue="JUnit.SumOfNumbersTest" />
       <item itemvalue="JUnit.StringSplosionTaskTest" />
       <item itemvalue="Application.SortedArrays" />
       <item itemvalue="JUnit.SortedArraysTest" />
+      <item itemvalue="JUnit.MapSharingTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapSharingTest" />
         <item itemvalue="JUnit.SortedArraysTest" />
         <item itemvalue="Application.SortedArrays" />
         <item itemvalue="JUnit.StringSplosionTaskTest" />
         <item itemvalue="JUnit.SumOfNumbersTest" />
-        <item itemvalue="Application.SumOfNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -268,35 +280,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortedArraysTest - 2018.11.14 at 22h 33m 07s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 31m 32s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.14 at 22h 33m 16s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 31m 47s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.14 at 22h 33m 49s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 34m 25s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.14 at 22h 35m 04s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 35m 11s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 44m 52s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 37m 02s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 46m 45s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 39m 10s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 52m 31s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 41m 42s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 56m 05s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 42m 20s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 56m 15s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 42m 29s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArraysTest - 2018.11.15 at 00h 56m 24s.xml">
-      <configuration name="SortedArraysTest" configurationId="JUnit" />
+    <history-entry file="MapSharingTest - 2018.11.16 at 15h 42m 33s.xml">
+      <configuration name="MapSharingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -305,30 +317,30 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32928178" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281768" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -340,6 +352,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tasks.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tasks.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -386,9 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tasks.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringSplosionTaskTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/StringSplosionTask.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -397,44 +409,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SumOfNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringSplosionTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="85">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SumOfNumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="85">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SumOfNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SortedArraysTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortedArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/MapSharing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MapSharingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
